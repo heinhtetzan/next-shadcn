@@ -7,10 +7,7 @@ type Props = {
 function AuthLayout({ children }: Props) {
   return (
     <>
-      <section
-        id="auth-layout"
-        className=" flex min-h-svh justify-center items-center"
-      >
+      <section id="auth-layout" className=" flex min-h-svh px-10 pt-28 ">
         {children}
       </section>
     </>

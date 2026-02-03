@@ -27,11 +27,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={inter.variable}>
-      <body
+      <MainLayout
         className={`${geistSans.variable} ${geistMono.variable} antialiased `}
       >
-        <MainLayout>{children}</MainLayout>
-      </body>
+        {children}
+      </MainLayout>
     </html>
   );
 }
